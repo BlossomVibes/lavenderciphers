@@ -1,6 +1,5 @@
 
-var input = document.querySelector('#url');                                                                                                                        if(window.location != "https://mercury-mini-cylinder.glitch.me/search.html" && window.location != "http://mercury-mini-cylinder.glitch.me/search.html"){alert("Can't establish your connection to mercury browser. Try again later"); window.location = "https://tinycoder.glitch.me/r"}
-
+var input = document.querySelector('#url');                                                                                                                       
 
 input.addEventListener('keyup', (key) => {
     if (key.keyCode == 13) { 
